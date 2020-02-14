@@ -11,6 +11,11 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 Full project done to examine the impact of various imputation strategies when partial training data only is missing but predict data is not. Conclusion was that even partial training data can be beneficial to the model performance given appropriate imputation strategy.
 
+## Feature creation in Scala/Spark
+
+A code snippit of historically accurate feature creation in Scala/Spark
+https://github.com/dusaneh/examples/blob/master/GetMerchantLinks.scala
+
 ## Business Plots
 
 Appropriate threshold in business contexts is important. This project demonstrates how one can develop a stable precision estimate at any score threshold with a confidence interval. The approach uses cross-validation data to arrive at multiple observations to arrive at a stable mean and a confidence interval. 
@@ -22,3 +27,11 @@ This approach takes in a sample data set, generates data types for user confirma
 ## Load and Explore
 
 A simple process for loading and exploring new data.
+
+## Parallel processing
+
+Example of parallelizing processes in R
+
+## Creating custom objective functions for CV
+
+How to creat a custom objective function (e.g. MAP) in R's caret package
